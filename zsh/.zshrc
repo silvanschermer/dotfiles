@@ -10,7 +10,6 @@ export ZSH="$HOME/.oh-my-zsh"
 export PATH="/opt/homebrew/bin:$PATH"
 export PATH="/opt/local/bin:$PATH"
 export PATH=/usr/local/clamav/bin:/usr/local/clamav/sbin:$PATH
-export HF_TOKEN="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"
 ZSH_THEME="bira"
 
 plugins=(
