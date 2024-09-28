@@ -135,11 +135,9 @@ remove_package() {
     esac
 }
 
-
-alias update_agts="/Users/silvanschermer/Steam/steamcmd +runscript /Users/silvanschermer/steam_cmd/agts.txt"
-alias update_black_mesa="/Users/silvanschermer/Steam/steamcmd +runscript /Users/silvanschermer/steam_cmd/update_mesa.txt"
-
-export PATH="/opt/homebrew/sbin:$PATH"
+if [[ -d "/opt/homebrew/sbin" ]]; then
+    export PATH="/opt/homebrew/sbin:$PATH"
+fi
 
 # HSTR
 alias hh=hstr                    # hh to be alias for hstr
